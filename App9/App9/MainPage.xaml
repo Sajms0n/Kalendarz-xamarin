@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App9.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Calendar 2025" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <StackLayout>
+            <Button Text="January" Clicked="OnMonthButtonClicked" CommandParameter="1"/>
+            <Button Text="February" Clicked="OnMonthButtonClicked" CommandParameter="2"/>
+            <Button Text="March" Clicked="OnMonthButtonClicked" CommandParameter="3"/>
+            <Button Text="April" Clicked="OnMonthButtonClicked" CommandParameter="4"/>
+            <Button Text="May" Clicked="OnMonthButtonClicked" CommandParameter="5"/>
+            <Button Text="June" Clicked="OnMonthButtonClicked" CommandParameter="6"/>
+            <Button Text="July" Clicked="OnMonthButtonClicked" CommandParameter="7"/>
+            <Button Text="August" Clicked="OnMonthButtonClicked" CommandParameter="8"/>
+            <Button Text="September" Clicked="OnMonthButtonClicked" CommandParameter="9"/>
+            <Button Text="October" Clicked="OnMonthButtonClicked" CommandParameter="10"/>
+            <Button Text="November" Clicked="OnMonthButtonClicked" CommandParameter="11"/>
+            <Button Text="December" Clicked="OnMonthButtonClicked" CommandParameter="12"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

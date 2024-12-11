@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App9.Android", "App9\App9.Android\App9.Android.csproj", "{9E2079DD-6B3A-48D9-BE81-B1949D0283FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App9.iOS", "App9\App9.iOS\App9.iOS.csproj", "{8BA00DA7-E78C-4EDE-995A-61A5D859408A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App9", "App9\App9\App9.csproj", "{FDC55693-1C32-4DAD-B770-E85796742CC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E2079DD-6B3A-48D9-BE81-B1949D0283FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2079DD-6B3A-48D9-BE81-B1949D0283FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2079DD-6B3A-48D9-BE81-B1949D0283FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9E2079DD-6B3A-48D9-BE81-B1949D0283FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2079DD-6B3A-48D9-BE81-B1949D0283FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E2079DD-6B3A-48D9-BE81-B1949D0283FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8BA00DA7-E78C-4EDE-995A-61A5D859408A}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{8BA00DA7-E78C-4EDE-995A-61A5D859408A}.Debug|Any CPU.Build.0 = Debug|iPhone
+		{8BA00DA7-E78C-4EDE-995A-61A5D859408A}.Debug|Any CPU.Deploy.0 = Debug|iPhone
+		{8BA00DA7-E78C-4EDE-995A-61A5D859408A}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{8BA00DA7-E78C-4EDE-995A-61A5D859408A}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{8BA00DA7-E78C-4EDE-995A-61A5D859408A}.Release|Any CPU.Deploy.0 = Release|iPhoneSimulator
+		{FDC55693-1C32-4DAD-B770-E85796742CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC55693-1C32-4DAD-B770-E85796742CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC55693-1C32-4DAD-B770-E85796742CC2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FDC55693-1C32-4DAD-B770-E85796742CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC55693-1C32-4DAD-B770-E85796742CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC55693-1C32-4DAD-B770-E85796742CC2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
